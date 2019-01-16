@@ -1,0 +1,266 @@
+
+/* Mobile */
+@media screen and (max-width:560px)
+{
+.wrapper{
+
+    width : 90%;
+    background-color:#ccffe6;
+    padding:30px;
+
+}
+
+
+.blue{
+    padding:30px;   
+    background-color:#0cccc1;
+    /* width : 90%; */
+}
+
+.red{
+    padding : 20px;
+    background-color : #ff4d4d;
+    height : 50px;
+    /* width : 350px; */
+    text-align : center;
+    color:white;
+    font-size:30;
+
+}
+
+.road{
+    background-color:#f2f2f2;
+    margin-left : -60px;
+    opacity : 0.9;
+    padding:10px;
+}
+.participation{
+    padding : 20px;
+    background-color : #ff4d4d;
+    text-align : center;
+    height : auto;
+}
+.smalldiv{
+    padding:10px;
+    /* width:250px; */
+    background-color:#ffff80; 
+    font-size:10;
+}
+
+.lastdiv{
+    padding:30px;   
+    background-color:#ffff80; 
+    /* width : 90%; */
+}
+.benefits{
+    background-color:#f2f2f2;
+    padding:5px;
+    float : left;
+}
+.requirements{
+    background-color:#f2f2f2;
+    padding:5px;
+    float : left;
+}
+}
+
+/* Tab */
+@media screen and (min-width:561px) and (max-width:959px)
+{
+    .wrapper{
+        position:relative;
+        width : 96%;
+          height : 2200px; 
+        background-color:#ccffe6;
+        padding:30px;
+       
+    } 
+    .grey{
+        position:absolute;
+        width: 300px;
+         height:101%; 
+        right:0px;
+        height : 2290px;
+        /* opacity:0.5; */
+        top:-30px;
+        background-color:#4d4d4d;
+    }
+    .blue{
+        padding:30px;   
+        background-color:#0cccc1;
+        width : 90%;
+        height : 97.5%; 
+    }
+    .red{
+        padding : 20px;
+        background-color : #ff4d4d;
+        /* height : 50px; */
+        width : 350px;
+        text-align : center;
+        color:white;
+        font-size:50;   
+    }
+    
+    hr{
+        margin-left : 2px;
+        width : 50%;
+    }
+     .lastdiv{
+         position : absolute;
+        padding:30px;   
+        background-color:#ffff80; 
+        width : 29%; 
+        top : 13%; 
+        right: 10%; 
+        /* height : 25%; */
+        
+    }
+
+    .road{
+        background-color:#f2f2f2;
+        margin-left : -60px;
+        opacity : 0.9;
+        padding:10px;
+        width : 55%;
+    }
+    .sowhat{
+        width : 50%;
+    }
+    .participation{
+        position : absolute;
+        padding : 20px;
+        background-color : #ff4d4d;
+        text-align : center;
+        width : 30%;
+        right : 10%;
+        top : 45%;
+        
+    }
+
+    .requirements{
+        position : absolute;
+        background-color:#f2f2f2;
+        padding:5px;
+        top : 62.7%;
+        width : 42%;
+        /* left :45%; */
+        right : 10%;
+    }
+    .benefits{
+        position : absolute;
+        background-color:#f2f2f2;
+        padding:5px;
+        width:20%;
+        right : 53.2%;
+        top : 65.3%;
+    }
+
+    .smalldiv{
+        position : absolute;
+        padding:10px;
+        width:350px;
+        top : 96%;
+        left : 30%;
+        background-color:#ffff80; 
+        font-size:25;
+    }
+
+}
+/* Desktop */
+@media screen and (min-width:960px)
+{
+    .wrapper{
+        position:relative;
+        width : 96%;
+        height : 2200px;
+        background-color:#ccffe6;
+        padding:30px;
+    } 
+    .grey{
+        position:absolute;
+        width: 300px;
+        height:101%;
+        right:0px;
+        height : 2290px; 
+        /* opacity:0.5; */
+        top:-30px;
+        background-color:#4d4d4d;
+    }
+    .blue{
+        padding:30px;   
+        background-color:#0cccc1;
+        width : 90%;
+        height : 97.5%;
+    }
+    .red{
+        padding : 20px;
+        background-color : #ff4d4d;
+        height : 50px;
+        width : 350px;
+        text-align : center;
+        color:white;
+        font-size:50;   
+    }
+    
+    hr{
+        margin-left : 2px;
+        width : 50%;
+    }
+     .lastdiv{
+         position : absolute;
+        padding:30px;   
+        background-color:#ffff80; 
+        /* width : 50%; */
+        top : 14%; 
+        left: 65%;
+        height : auto;
+    }
+
+    .road{
+        background-color:#f2f2f2;
+        margin-left : -60px;
+        opacity : 0.9;
+        padding:10px;
+        width : 55%;
+    }
+    .sowhat{
+        width : 20%;
+    }
+    .participation{
+        position : absolute;
+        padding : 20px;
+        background-color : #ff4d4d;
+        text-align : center;
+        width : 30%;
+        right : 9%;
+        height: 26.6%;
+        top : 40%;
+    }
+
+    .requirements{
+        position : absolute;
+        background-color:#f2f2f2;
+        padding:5px;
+        top : 68.3%;
+        width : 42%;
+        right : 9%;
+    }
+    .benefits{
+        position : absolute;
+        background-color:#f2f2f2;
+        padding:5px;
+        width:20%;
+        right : 51.6%;
+        top : 71.3%;
+    }
+
+    .smalldiv{
+        position : absolute;
+        padding:10px;
+        width:350px;
+        top : 91.2%;
+        left : 30%;
+        background-color:#ffff80; 
+        font-size:25;
+    }
+}
